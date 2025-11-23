@@ -3,9 +3,9 @@ new Vue ({
 	data: {
 		title: 'to do list',
 		tasks: [
-			{ name: 'Compre uma caneta nova' },
+			{ name: 'Regar plantas' },
 			{ name: 'Leia um livro' },
-			{ name: 'Meeting with team' }
+			{ name: 'Tomar o suco antes de ir pra academia' }
 		]
 	},
 	methods: {
@@ -23,5 +23,6 @@ new Vue ({
 			this.tasks.splice(this.tasks.indexOf(task), 1)
 		}
 	}
+
 
 })
